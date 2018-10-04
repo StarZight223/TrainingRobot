@@ -54,4 +54,13 @@ class JustTheBasicsTest {
 		assertEquals(1.414 , hyp, 0.001 /* delta */);
 	}
 
+	
+	/* The sume of the squares of 1,2,3,4,5 should be 1 + 4 + 9 + 16 + 25 = 55 */
+	@Test
+	void testSumOfSquares() {
+		JustTheBasics justTheBasics = new JustTheBasics();
+		double[] args = {1, 2, 3, 4, 5};
+		double sumOfSquares = justTheBasics.sumOfSquares(args);
+		assertEquals(55.0, sumOfSquares, 0.001 /*delta*/);
+	}
 }

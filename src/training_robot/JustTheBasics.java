@@ -18,4 +18,9 @@ public class JustTheBasics {
 		// TODO: make this calculate the hypoteneuse
 		return 0.0;
 	}
+	
+	public double sumOfSquares(double[] args) {
+		// TODO: make this calculate the sum of the squares of all the args.
+		return 0.0;
+	}
 }
