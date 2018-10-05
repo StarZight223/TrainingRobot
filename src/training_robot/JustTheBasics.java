@@ -16,11 +16,18 @@ public class JustTheBasics {
 	// Hint: The function Math.pow will be helpful
 	public double calculateHypoteneuse(double sideA, double sideB) {
 		// TODO: make this calculate the hypoteneuse
-		return 0.0;
+		double a = Math.pow(sideA, 2);
+		double b = Math.pow(sideB, 2);
+		return Math.pow(a + b, 0.5);
 	}
 	
 	public double sumOfSquares(double[] args) {
 		// TODO: make this calculate the sum of the squares of all the args.
-		return 0.0;
+		double total = 0.0;
+		for (double arg : args)
+		{
+			total = total + Math.pow(arg, 2.0);
+		}
+		return total;
 	}
 }
