@@ -32,6 +32,6 @@ public class JustTheBasics {
 	}
 	
 	public void conflictArea() {
-		// THIS IS A CONFLICT! GRR! ARGH!
+		// THIS IS A CONFLICT! (No it's not!) GRR! ARGH!
 	}
 }
