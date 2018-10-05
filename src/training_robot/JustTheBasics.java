@@ -30,4 +30,8 @@ public class JustTheBasics {
 		}
 		return total;
 	}
+	
+	public void conflictArea() {
+		// THIS IS A CONFLICT! GRR! ARGH!
+	}
 }
